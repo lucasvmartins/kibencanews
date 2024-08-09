@@ -82,7 +82,7 @@ main {
 .botao-video {
     background-color: red;
     border-radius: 5px;
-    border-color: red;
+    border: solid red;
     font-family: "Kameron", serif;
     color: white;
 }
