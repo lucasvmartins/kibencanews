@@ -1,35 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Kameron:wght@400..700&display=swap');
+
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.kameron-<uniquifier> {
+  font-family: "Kameron", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.kaisei-tokumin-regular {
+    font-family: "Kaisei Tokumin", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+*/
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kameron", serif;
     color: #3E251E;
 }
 
 body {
-    background-color: white;
-}
-
-.esq {
-    text-align: left;
-    font-size: 10px;
-    display: inline-block;
-}
-
-.cent {
-    text-align: center;
-    font-size: 10px;
-    display: inline-block;
-}
-
-.dir {
-    text-align: right;
-    font-size: 10px;
-    display: inline-block;
+    font-size: 100%;
+    background-image: url(../imagens/fundo.png);
+    background-size: cover;
 }
 
 main {
-    background-color: antiquewhite;
-    width: 500px;
-    margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+}
+
+.logokibenca {
+    width: 450px;
+}
+
+.novidades {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+}
+
+.conteudo-novidades {
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.jornal {
+    width: 350px;
+    height: 450px;
+}
+
+.video {
+    width: 750px;
+    height: 400px;
+}
+
+.botao-video {
+    background-color: red;
+    border-radius: 5px;
+    border-color: red;
+    font-family: "Kameron", serif;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
 }
